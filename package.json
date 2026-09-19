@@ -1,0 +1,20 @@
+{
+  "name": "commander-plus",
+  "version": "0.1.0",
+  "description": "Local-first AI agent workstation core with MCP workspaces, tasks, skills and health guardians.",
+  "type": "module",
+  "engines": {"node": ">=20"},
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/index.js",
+    "test": "npm run build && node --test dist/tests/*.test.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^26.0.0",
+    "typescript": "^6.0.0"
+  }
+}
