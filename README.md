@@ -1,6 +1,6 @@
 # Commander Plus
 
-<p align="center"><img src="assets/architecture.svg" alt="Commander Plus architecture" width="100%"></p>
+<p align="center"><img src="assets/showcase.png" alt="Commander Plus — local-first AI agent workstation" width="100%"></p>
 
 A small, local-first MCP control-plane core for AI agents that need persistent project context without sending workstation state to a hosted orchestration service.
 
@@ -28,6 +28,8 @@ Most agent demos are stateless. Commander Plus treats the workstation as a durab
 Set COMMANDER_PLUS_HOME to move the local state directory.
 
 ## Architecture
+
+<p align="center"><img src="assets/architecture.svg" alt="Commander Plus architecture" width="100%"></p>
 
 Client -> MCP server -> workspace / skill / guardian services -> local JSON state
 
