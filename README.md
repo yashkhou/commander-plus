@@ -1,5 +1,7 @@
 # Commander Plus
 
+<p align="center"><img src="assets/architecture.svg" alt="Commander Plus architecture" width="100%"></p>
+
 A small, local-first MCP control-plane core for AI agents that need persistent project context without sending workstation state to a hosted orchestration service.
 
 This public repository contains the safe reference layer: workspace registration, reusable skill routing and health guardians. Production-only desktop automation, authenticated browser control, private relay infrastructure and local operational data are intentionally not included.
